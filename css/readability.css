@@ -57,9 +57,17 @@
 #readFooter {
 	display: block;
 	border-top: 1px solid  #333;
-	height: 360px :
-	margin-bottom: 260px;
 	text-align: center;
+}
+div.footer-right {
+	float: right;
+	line-height: 1;
+	text-align: right;
+	font-size: .75em;
+	margin-top: 18px
+}
+span.version {
+	display: none;	
 }
 
 /* ---------------- USER-CONFIGURABLE STYLING --------------------- */
